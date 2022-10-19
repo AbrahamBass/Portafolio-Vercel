@@ -1,0 +1,84 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.circulos {
+  filter: blur(80px);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+
+.img-1{
+  width: 420px;
+  /* position: absolute; */
+  top: 0px;
+  left: 280px;
+  z-index: -1;
+  animation: slidein 30s infinite;
+}
+
+
+
+.img-2{
+  width: 460px;
+  position: absolute;
+  top: 0px;
+  right: 200px;
+  z-index: -1;
+  animation: slidein 30s infinite;
+}
+
+.img-3{
+  width: 400px;
+  position: absolute;
+  top: 300px;
+  left: 60px;
+  z-index: -1;
+  animation: slidein 30s infinite;
+}
+
+.img-4{
+  width: 400px;
+  position: absolute;
+  top: 300px;
+  right: 60px;
+  z-index: -1;
+  animation: slidein 30s infinite;
+}
+
+
+@keyframes slidein {
+  from {
+    transform: rotateZ(0deg) scale(4);
+  }
+
+  to {
+    transform: rotateZ(360deg) scale(4);
+  }
+}
+
+
+.div-present {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.div-about {
+  justify-content: center;
+  padding: 0 50px 50px 50px;
+  display: flex;
+}
+
+.div-skills {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+

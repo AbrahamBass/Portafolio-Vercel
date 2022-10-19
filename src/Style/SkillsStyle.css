@@ -1,0 +1,19 @@
+.titulo-skills {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.div-habilidades {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-top: 15px;
+  position: relative;
+  z-index: 1;
+}
+

@@ -1,0 +1,19 @@
+.titulo-about {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.div-parrafo-about{
+  position: relative;
+  z-index: 1;
+  max-width: 650px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Inter', sans-serif;
+}
