@@ -17,3 +17,10 @@
   margin-top: 20px;
   font-family: 'Inter', sans-serif;
 }
+
+
+@media (max-width: 485px){
+  .titulo-about {
+    font-size: 50px;
+  }
+}
