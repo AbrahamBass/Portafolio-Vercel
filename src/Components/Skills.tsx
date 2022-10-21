@@ -21,7 +21,6 @@ const Skills = () => {
         <p>RXJS</p>
         <p>GIT</p>
         <p>JEST</p>
-        <p>SCSS</p>
       </div>
     </div>
   )

@@ -7,6 +7,7 @@ import '../Style/HomeStyle.css'
 import Present from '../Components/Present'
 import AboutMe from '../Components/AboutMe'
 import Skills from '../Components/Skills'
+import MyProyect from '../Components/MyProyect'
 
 //IMAGENES
 import Uno from '../Img/1.svg'
@@ -26,6 +27,9 @@ const HomePage = () => {
       </div>
       <div className='div-about'>
         <AboutMe />
+      </div>
+      <div className='div-proyects'>
+        <MyProyect />
       </div>
       <div className='div-skills'>
         <Skills />

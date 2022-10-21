@@ -81,27 +81,60 @@ body::-webkit-scrollbar {
   margin-bottom: 40px;
 }
 
+.div-proyects {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
 
 
 @media (max-width: 640px){
+  .circulos{
+    filter: blur(70px);
+  }
   .img-1{
-    width: 300px;
-   
+    width: 320px;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    animation: slidein 30s infinite;
   }
 
   .img-2{
-    width: 300px;
-    
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    animation: slidein 30s infinite;
   }
 
   .img-3{
     width: 300px;
-   
+    position: absolute;
+    bottom: 0;
+    top: 380px;
+    left: 40px;
+    animation: slidein 30s infinite;
   }
 
   .img-4{
-    width: 300px;
-   
+    width: 200px;
+    top: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    animation: slidein 30s infinite;
+  }
+
+  @keyframes slidein {
+    from {
+      transform: rotateZ(0deg) scale(4.5);
+    }
+  
+    to {
+      transform: rotateZ(360deg) scale(4.5);
+    }
   }
 }
 
