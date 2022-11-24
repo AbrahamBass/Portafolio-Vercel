@@ -3,7 +3,7 @@ body::-webkit-scrollbar {
 }
 
 .circulos {
-  filter: blur(80px);
+  filter: blur(130px);
   position: fixed;
   height: 100%;
   width: 100%;

@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <div className='div-skills-c'>
       <div>
-        <h1 className='titulo-skills'>Skills</h1>
+        <h1 className='titulo-skills'>Habilidades</h1>
       </div>
       <div className='div-habilidades'>
         <p>HTML</p>
@@ -21,6 +21,7 @@ const Skills = () => {
         <p>RXJS</p>
         <p>GIT</p>
         <p>JEST</p>
+        <p>TYPESCRIPT</p>
       </div>
     </div>
   )

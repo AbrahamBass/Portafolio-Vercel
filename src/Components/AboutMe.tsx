@@ -7,15 +7,15 @@ const AboutMe = () => {
   return (
     <div className='div-aboutMe'>
       <div>
-        <h1 className='titulo-about'>About Me</h1>
+        <h1 className='titulo-about'>Sobre Mi</h1>
       </div>
 
       <div className='div-parrafo-about'>
-        <p>Hello, I am a frontend developer located in Colombia. I am a self-taught student. Developing frontend projects is one of my greatest passions. I also like that the user always has a dynamic experience.</p>
+        <p>Hola, soy un desarrollador frontend ubicado en Colombia. Soy un estudiante autodidacta. Desarrollar proyectos frontend es una de mis mayores pasiones. También me gusta que el usuario siempre tenga una experiencia dinámica.</p>
         <br />
-        <p>I am very passionate about creating things related to technology and art. I enjoy learning from platforms that help me improve my skills, such as FreeCodeCamp, Academia X, OpenBootcamp and TheOdinProject.</p>
+        <p>Me apasiona mucho crear cosas relacionadas con la tecnología y el arte. Disfruto aprendiendo de plataformas que me ayudan a mejorar mis habilidades, como FreeCodeCamp, Academia X, OpenBootcamp y TheOdinProject.</p>
         <br />
-        <p>I am organized and like to solve problems independently. In my free time I like to read books, watch movies, series and exercise.</p>
+        <p>Soy organizado y me gusta resolver problemas de forma independiente. En mi tiempo libre me gusta leer libros, ver películas, series y hacer ejercicio.</p>
       </div>
     </div>
   )
